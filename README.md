@@ -1,5 +1,11 @@
 # Graphite Desktop
 
+I've only setup Graphite and Tauri
+
+## All the work was done by the people of https://github.com/GraphiteEditor/Graphite
+
+# If you have a request, ask them 
+
 ## Requisites to build your own version
 - Shell client
 - Git
