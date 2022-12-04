@@ -30,7 +30,4 @@ I've only setup Graphite and Tauri
 - Install Rust (https://rustup.rs/)
 - Navigate to src-tauri and run `cargo tauri build`
 
-
-
-
-We only need to copy the contents from Graphite/frontend/dist paste inside the src folder, and build with the cmd cargo tauri dev
+![Printscreen](https://github.com/felipetesc/graphite-desktop/blob/master/assets/print.jpg)
