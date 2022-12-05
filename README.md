@@ -19,10 +19,13 @@ I've only setup Graphite and Tauri
 - Installed Rust from https://rustup.rs/ and followed its instructions
 - I had setup Tauri as explained at: https://tauri.app/v1/guides/getting-started/setup/ (I've used cargo to install tauri and tauri-cli)
 - I've cloned Graphite with `git clone https://github.com/GraphiteEditor/Graphite.git`
-- Build Graphite using the instructions at  https://graphite.rs/contribute/.
-- Created a new tauri project from the terminal `cargo create-tauri-app graphite-desktop`
+- I built Graphite using the instructions at  https://graphite.rs/contribute/.
+- I created a new tauri project by typing the terminal command: `cargo create-tauri-app graphite-desktop`
 - Removed all files from the src directory EXCEPT `main.js`
-- I copied the contents from Graphite/frontend/dist and pasted inside src
+- Edited some properties from tauri.conf.json
+- Deleted all tauri icons inside src-tauri
+- I've edited the svg icon and used the command `cargo tauri icon icon.png` to create all icons inside the icons folder at src-tauri 
+- I copied the contents from Graphite/frontend/dist and pasted inside the src folder
 - I executed `cargo tauri build`
 
 ## How to build
